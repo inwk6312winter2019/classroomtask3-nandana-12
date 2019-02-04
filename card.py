@@ -13,10 +13,10 @@ class card():
 		return self.rank < other.rank
 
 	def __gt__(self,other):
-		return self.rank>other.rank
+		return self.rank > other.rank
 
-	def __et__(self,other):
-		return self.rank==other.rank
+	def __eq__(self,other):
+		return self.rank==other.rank and self.suit==self.rank
 
 ace_spade = card(3,1)
 queen_hearts = card(2,12)
