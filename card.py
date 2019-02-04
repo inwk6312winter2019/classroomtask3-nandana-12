@@ -21,5 +21,7 @@ class card():
 ace_spade = card(3,1)
 queen_hearts = card(2,12)
 print(ace_spade)
-print(queen_heart)
-
+print(queen_hearts)
+print(ace_spade<queen_hearts)
+print(ace_spade==queen_hearts)
+print(ace_spade>queen_hearts)
